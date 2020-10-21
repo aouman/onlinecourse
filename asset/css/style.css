@@ -1,8 +1,18 @@
 /*css du menu*/
-.nav-link{
+.bottom{
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item{
   width: 90px;
   text-align: center;
 }
-.bottom{
-  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+.nav-item:hover{
+  border-bottom: 1px solid #0078ee;
+  background-color: #e6f1fe;
+}
+
+.active{
+  border-bottom: 1px solid #0078ee;
+  background-color: #e6f1fe;
 }
