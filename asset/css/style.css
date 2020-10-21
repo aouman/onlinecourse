@@ -3,11 +3,13 @@
   box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nav-item{
-  width: 90px;
+.navs{
   text-align: center;
 }
-.nav-item:hover{
+.navs a{
+  margin: 0 25px;
+}
+.navs:hover{
   border-bottom: 1px solid #0078ee;
   background-color: #e6f1fe;
 }
@@ -15,4 +17,13 @@
 .active{
   border-bottom: 1px solid #0078ee;
   background-color: #e6f1fe;
+}
+
+.nav-item .nav-link .btn{
+  width: 130px;
+  text-align: center;
+}
+
+.dropdown-item:active{
+  background-color: #fff!important;
 }
