@@ -27,3 +27,18 @@
 .dropdown-item:active{
   background-color: #fff!important;
 }
+/*Main image*/
+.mainImg{
+    height: 500px!important;
+}
+
+.rounded-circle svg{
+    background-color: #fff!important;
+    color: #0078ee;
+}
+
+.sect-cat span svg{
+    color: #0078ee;
+}
+
+
